@@ -115,6 +115,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Crossover.cpp" />
+    <ClCompile Include="fitness.cpp" />
+    <ClCompile Include="FIXGANT.cpp" />
+    <ClCompile Include="Generate.cpp" />
+    <ClCompile Include="GetRepairOrder.cpp" />
+    <ClCompile Include="input(文件）.cpp" />
+    <ClCompile Include="last_step.cpp" />
+    <ClCompile Include="main(命令行).cpp" />
+    <ClCompile Include="main_gante.cpp" />
+    <ClCompile Include="Mutate_easy.cpp" />
+    <ClCompile Include="output(命令行.cpp" />
+    <ClCompile Include="output(文件.cpp" />
+    <ClCompile Include="output(检修.cpp" />
+    <ClCompile Include="select.cpp" />
+    <ClCompile Include="Timekeeping.cpp" />
+    <ClCompile Include="Timekeeping_new.cpp" />
+    <ClCompile Include="translate.cpp" />
+    <ClCompile Include="transoutput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zqy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
